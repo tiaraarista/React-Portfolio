@@ -4,7 +4,7 @@ import Header from './components/header/Header';
 import Home from './components/home/Home';
 import About from './components/about/About';
 import Skill from './components/Skills/Skills';
-import Service from './components/services/Service';
+import Services from './components/services/Services';
 
 const App = () => {
   return (
@@ -15,7 +15,7 @@ const App = () => {
       <Home/>
       <About/>
       <Skill/>
-      <Service/>
+      <Services/>
     </main>
     </>
 

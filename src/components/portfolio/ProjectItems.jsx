@@ -30,7 +30,7 @@ const ProjectItems = ({item}) => {
                 <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
                 <h3 className="services__modal-title">{item.title}</h3>
                 <p className="services__modal-description">
-                    An endless Run Game using Unity C#
+                    Used to Publish Personal Portfolio
                 </p>
 
                 <Swiper loop={true} grabCursor={true} spaceBetween={24} pagination={{ clickable: true, }} breakpoints={{
@@ -60,9 +60,6 @@ const ProjectItems = ({item}) => {
                     </SwiperSlide>
                     <SwiperSlide className="modal__card">
                       <img src={item.more6} alt="" className="project__img" />
-                    </SwiperSlide>
-                    <SwiperSlide className="modal__card">
-                      <img src={item.more7} alt="" className="project__img" />
                     </SwiperSlide>
 
                 </Swiper>

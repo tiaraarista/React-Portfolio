@@ -25,11 +25,11 @@ const ProjectItems = ({item}) => {
         <span className="project__button" onClick={()=>toggleTab(item.id)}>View More<i className="uil uil-arrow-right project__button-icon"></i></span>
         <a href={item.link} className="project__button" rel="noreferrer" target='_blank'>Demo<i className="bx bx-right-arrow-alt project__button-icon"></i></a>   
 
-        <div className={toggleState === 1 ? "services__modal active-modal" : "services__modal"}>
-            <div className="services__modal-content">
-                <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
-                <h3 className="services__modal-title">{item.title}</h3>
-                <p className="services__modal-description">
+        <div className={toggleState === 1 ? "project__modal active-modal" : "project__modal"}>
+            <div className="project__modal-content">
+                <i onClick={() => toggleTab(0)} className="uil uil-times project__modal-close"></i>
+                <h3 className="project__modal-title">{item.title}</h3>
+                <p className="project__modal-description">
                     Used to Publish Personal Portfolio
                 </p>
 
@@ -66,11 +66,11 @@ const ProjectItems = ({item}) => {
             </div>
         </div> 
 
-        <div className={toggleState === 2 ? "services__modal active-modal" : "services__modal"}>
-            <div className="services__modal-content">
-                <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
-                <h3 className="services__modal-title">{item.title}</h3>
-                <p className="services__modal-description">
+        <div className={toggleState === 2 ? "project__modal active-modal" : "project__modal"}>
+            <div className="project__modal-content">
+                <i onClick={() => toggleTab(0)} className="uil uil-times project__modal-close"></i>
+                <h3 className="project__modal-title">{item.title}</h3>
+                <p className="project__modal-description">
                     An endless Run Game using Unity C#
                 </p>
 
@@ -98,11 +98,11 @@ const ProjectItems = ({item}) => {
             </div>
         </div>     
 
-        <div className={toggleState === 3 ? "services__modal active-modal" : "services__modal"}>
-            <div className="services__modal-content">
-                <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
-                <h3 className="services__modal-title">{item.title}</h3>
-                <p className="services__modal-description">
+        <div className={toggleState === 3 ? "project__modal active-modal" : "project__modal"}>
+            <div className="project__modal-content">
+                <i onClick={() => toggleTab(0)} className="uil uil-times project__modal-close"></i>
+                <h3 className="project__modal-title">{item.title}</h3>
+                <p className="project__modal-description">
                     Augmented Reality to Introduce Study Program on PHB using Unity C# and Vuforia Package
                 </p>
 
@@ -133,11 +133,11 @@ const ProjectItems = ({item}) => {
             </div>
         </div>     
 
-        <div className={toggleState === 4 ? "services__modal active-modal" : "services__modal"}>
-            <div className="services__modal-content">
-                <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
-                <h3 className="services__modal-title">{item.title}</h3>
-                <p className="services__modal-description">
+        <div className={toggleState === 4 ? "project__modal active-modal" : "project__modal"}>
+            <div className="project__modal-content">
+                <i onClick={() => toggleTab(0)} className="uil uil-times project__modal-close"></i>
+                <h3 className="project__modal-title">{item.title}</h3>
+                <p className="project__modal-description">
                     Point of Sales System (Cashier) using Java Netbeans and MySQL
                 </p>
 

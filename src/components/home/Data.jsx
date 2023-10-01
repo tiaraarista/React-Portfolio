@@ -56,7 +56,19 @@ const Data = () => {
         </h1>
         <h3 className="home__subtitle">Web Developer</h3>
         <p className="home__description">I'm a web developer based in Brebes</p>
-        <a href="#contact" className="button button--flex">
+
+        <div className="home__social">
+          <a href="https://instagram.com/tiaraarista_" className="home__social-icon" rel="noreferrer" target="_blank">
+              <i class="uil uil-instagram"></i>
+          </a>
+          <a href="https://github.com/tiaraarista" className="home__social-icon" rel="noreferrer" target="_blank">
+              <i class="uil uil-github-alt"></i>
+          </a>
+          <a href="https://twitter.com/tiaraarista_" className="home__social-icon" rel="noreferrer" target="_blank">
+          <i class="uil uil-twitter-alt"></i>
+          </a>
+        </div>
+        {/* <a href="/contact" className="button button--flex">
             Say Hello
             <svg
                   class="button__icon"
@@ -75,7 +87,7 @@ const Data = () => {
                     fill="var(--body-color)"
                   ></path>
                 </svg>
-        </a>
+        </a> */}
     </div>
   )
 }

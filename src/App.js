@@ -1,31 +1,32 @@
 import React from 'react';
 import "./App.css";
 import Header from './components/header/Header';
-import Home from './components/home/Home';
-import About from './components/about/About';
-import Skill from './components/Skills/Skills';
-import Services from './components/services/Services';
-import Qualification from './components/qualification/Qualification';
-import Contact from './components/contact/Contact';
-import Footer from './components/footer/Footer';
-import Portfolio from './components/portfolio/Portfolio';
+// import Home from './components/home/Home';
+// import About from './components/about/About';
+// import Skill from './components/Skills/Skills';
+// import Services from './components/services/Services';
+// import Qualification from './components/qualification/Qualification';
+// import Contact from './components/contact/Contact';
+// import Footer from './components/footer/Footer';
+// import Portfolio from './components/portfolio/Portfolio';
 import ScrollUp from './components/scrollup/ScrollUp';
 
 const App = () => {
   return (
     <>
-    <Header/>
+    {/* <Header/> */}
 
     <main className='main'>
-      <Home/>
+      <Header/>
+      {/* <Home/>
       <About/>
       <Skill/>
       <Services/>
       <Qualification/>
       <Portfolio/>
-      <Contact/>
+      <Contact/> */}
     </main>
-    <Footer/>
+    {/* <Footer/> */}
     <ScrollUp/>
     </>
 

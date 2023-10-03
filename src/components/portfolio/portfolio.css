@@ -49,6 +49,7 @@
     object-fit: cover;
     border-radius: 0.5rem;
     margin-bottom: var(--mb-1);
+    cursor: pointer;
 }
 
 .project__title {

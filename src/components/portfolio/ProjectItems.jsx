@@ -17,14 +17,14 @@ const ProjectItems = ({item}) => {
         setTogelState(id);
     }
   return (
-    <div className="project__card" key={item.id}>
+    <div className="project__card" key={item.id} >
       <div className="card__header">
-        <img src={item.image} alt="" className="project__img" />
+        <img src={item.image} alt="" className="project__img" onClick={()=>toggleTab(item.id)}/>
       </div>
         <h3 className="project__title">{item.title}</h3>
-        <span className="project__button" onClick={()=>toggleTab(item.id)}>View More<i className="uil uil-arrow-right project__button-icon"></i></span>
-        <a href={item.link} className="project__button" rel="noreferrer" target='_blank'>Demo<i className="bx bx-right-arrow-alt project__button-icon"></i></a>   
-
+        {/* <span className="project__button" onClick={()=>toggleTab(item.id)}>View More<i className="uil uil-arrow-right project__button-icon"></i></span> */}
+        {/* <a href={item.link} className="project__button" rel="noreferrer" target='_blank'>Demo<i className="bx bx-right-arrow-alt project__button-icon"></i></a> */}
+        <a href={item.link} className="button button--flex">Demo</a>
         <div className={toggleState === 1 ? "project__modal active-modal" : "project__modal"}>
             <div className="project__modal-content">
                 <i onClick={() => toggleTab(0)} className="uil uil-times project__modal-close"></i>

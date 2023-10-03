@@ -7,6 +7,7 @@ import Skill from '../Skills/Skills';
 import Service from '../services/Services';
 import Portfolio from '../portfolio/Portfolio';
 import Contact from '../contact/Contact';
+import Qualification from '../qualification/Qualification';
 
 const Header = () => {
   window.addEventListener("scroll", function(){
@@ -19,7 +20,7 @@ const Header = () => {
   
   // /* ============== Toggle Menu ============== */
   const[Toggle, showMenu] = useState(false)
-  const [activeNav, setActiveNav] = useState("#home");
+  const [activeNav, setActiveNav] = useState("/home");
   return (
     // <header className="header">
     //   <nav className="nav container">
@@ -87,6 +88,7 @@ const Header = () => {
               <Link to="/" onClick={()=>setActiveNav('/home')} className={activeNav === "/home" ? "nav__link active-link" : "nav__link"}>Home</Link>
               <Link to="/about" onClick={()=>setActiveNav('/about')} className={activeNav === "/about" ? "nav__link active-link" : "nav__link"}>About</Link>
               <Link to="/skill" onClick={()=>setActiveNav('/skill')} className={activeNav === "/skill" ? "nav__link active-link" : "nav__link"}>Skill</Link>
+              {/* <Link to="/qualification" onClick={()=>setActiveNav('/qualification')} className={activeNav === "/qualification" ? "nav__link active-link" : "nav__link"}>Qualification</Link> */}
               <Link to="/services" onClick={()=>setActiveNav('/services')} className={activeNav === "/services" ? "nav__link active-link" : "nav__link"}>Services</Link>
               <Link to="/portfolio" onClick={()=>setActiveNav('/portfolio')} className={activeNav === "/portfolio" ? "nav__link active-link" : "nav__link"}>Portfolio</Link>
               <Link to="/contact" onClick={()=>setActiveNav('/contact')} className={activeNav === "/contact" ? "nav__link active-link" : "nav__link"}>Contact</Link>
@@ -100,8 +102,9 @@ const Header = () => {
     </header>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/about" element={[<About />, <Qualification/>]} />
         <Route path="/skill" element={<Skill />} />
+        {/* <Route path="/qualification" element={<Qualification />} /> */}
         <Route path="/services" element={<Service />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />

@@ -9,7 +9,7 @@ import Header from './components/header/Header';
 // import Contact from './components/contact/Contact';
 // import Footer from './components/footer/Footer';
 // import Portfolio from './components/portfolio/Portfolio';
-import ScrollUp from './components/scrollup/ScrollUp';
+// import ScrollUp from './components/scrollup/ScrollUp';
 
 const App = () => {
   return (
@@ -27,7 +27,7 @@ const App = () => {
       <Contact/> */}
     </main>
     {/* <Footer/> */}
-    <ScrollUp/>
+    {/* <ScrollUp/> */}
     </>
 
   )

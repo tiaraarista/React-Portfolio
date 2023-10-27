@@ -18,7 +18,7 @@ const About = () => {
                     Enthusiast especialy Web Developer, UI Design, and Software Developer.
                 </p>
 
-                <a href="https://docs.google.com/document/d/1G2Mq-Ex3qTT5h_dUvGn-1gn6YEX9oUkUAQ7uOBci5hY/edit?usp=sharing" className="button button--flex">
+                <a href="https://docs.google.com/document/d/1G2Mq-Ex3qTT5h_dUvGn-1gn6YEX9oUkUAQ7uOBci5hY/edit?usp=sharing" className="button button--flex" rel="noreferrer" target="_blank">
                     Download CV
                     <i className="uil uil-file-download-alt button__icon"></i>
                 </a>

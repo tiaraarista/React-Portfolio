@@ -15,7 +15,7 @@ const About = () => {
 
                 <p className="about__description">
                     Graduated from Bachelor of Applied Informatics Engineering on PHB Tegal. I'm IT
-                    Enthusiast especialy Web Developer, UI Ddesign, and Software Developer.
+                    Enthusiast especialy Web Developer, UI Design, and Software Developer.
                 </p>
 
                 <a href="https://docs.google.com/document/d/1G2Mq-Ex3qTT5h_dUvGn-1gn6YEX9oUkUAQ7uOBci5hY/edit?usp=sharing" className="button button--flex">

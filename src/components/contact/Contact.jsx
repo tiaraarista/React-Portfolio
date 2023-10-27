@@ -29,11 +29,13 @@ const Contact = () => {
                         <i className="bx bx-mail-send contact__card-icon"></i>
 
                         <h3 className="contact__card-title">Email</h3>
-                        <span className="contact__card-data">tiaraaristahasanah@gmail.com</span>
-                        <br />
+                        <a  href="https://mail.google.com/mail/?view=cm&fs=1&to=tiaraaristahasanah@gmail.com&su=Reach%20out%20from%20Website&body=Hello%20Tiara!" className="contact__card-data"  rel="noreferrer" target="_blank">
+                            tiaraaristahasanah@gmail.com
+                        </a>
+                        {/* <br />
                         <a href="https://mailto:tiaraaristahasanah@gmail.com" className="contact__button" rel="noreferrer" target="_blank">
                             Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i>
-                        </a>
+                        </a> */}
                     </div>
 
                     
@@ -41,11 +43,13 @@ const Contact = () => {
                         <i className="bx bxl-whatsapp contact__card-icon"></i>
 
                         <h3 className="contact__card-title">Whatsapp</h3>
-                        <span className="contact__card-data">0857-9800-0774</span>
-                        <br />
+                        <a href="https://wa.me/085798000774" className="contact__card-data"  rel="noreferrer" target="_blank">
+                            0857-9800-0774
+                        </a>
+                        {/* <br />
                         <a href="https://wa.me/085798000774" className="contact__button" rel="noreferrer" target="_blank">
                             Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i>
-                        </a>
+                        </a> */}
                     </div>
 
                     
@@ -53,11 +57,13 @@ const Contact = () => {
                         <i className="bx bxl-instagram contact__card-icon"></i>
 
                         <h3 className="contact__card-title">Instagram</h3>
-                        <span className="contact__card-data">@tiaraarista_</span>
-                        <br />
+                        <a href="https://instagram.com/tiaraarista_" className="contact__card-data" rel="noreferrer" target="_blank">
+                            @tiaraarista_
+                        </a>
+                        {/* <br />
                         <a href="https://instagram.com/tiaraarista_" className="contact__button" rel="noreferrer" target="_blank">
                             Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i>
-                        </a>
+                        </a> */}
                     </div>
                 </div>
             </div>

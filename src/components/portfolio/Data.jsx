@@ -16,6 +16,19 @@ import ARProdiLoad from "../../assets/ARPHB/Loadscreen.jpg";
 import KachujinHome from "../../assets/KachujinRun/Home.jpg";
 import KachujinPlay from "../../assets/KachujinRun/Play.jpg";
 import KachujinHowtoPlay from "../../assets/KachujinRun/HowToPlay.jpg";
+import TicTacToeHome from "../../assets/TicTacToe/Home.png";
+import TicTacToeTile from "../../assets/TicTacToe/Tile.png";
+import TicTacToeSeri from "../../assets/TicTacToe/Seri.png";
+import TicTacToeDefeat from "../../assets/TicTacToe/Defeat.png";
+import PingPong2DHome from "../../assets/PingPong2D/Home.png";
+import PingPong2DPlay from "../../assets/PingPong2D/Play.png";
+import PingPong2DGameOver from "../../assets/PingPong2D/GameOver.png";
+import PingPong2DHowToPlay from "../../assets/PingPong2D/HowToPlay.png";
+import ReactPortfolioHome from "../../assets/ReactPortfolio/Home.png";
+import ReactPortfolioAbout from "../../assets/ReactPortfolio/About.png";
+import ReactPortfolioSkill from "../../assets/ReactPortfolio/Skill.png";
+import ReactPortfolioPortfolio from "../../assets/ReactPortfolio/Portfolio.png";
+import ReactPortfolioContact from "../../assets/ReactPortfolio/Contact.png";
 
 
 
@@ -65,7 +78,41 @@ export const projectsData = [
         more3 : AraDataBarang,
         more4 : AraTransaksi,
         more5 : AraLapPenjualan
-    }
+    },
+    {
+        id: 5,
+        image : TicTacToeHome,
+        title: 'Tic Tac Toe',
+        category: 'game',
+        link : 'https://github.com/tiaraarista/TicTacToe-AI',
+        more1 : TicTacToeHome,
+        more2 : TicTacToeTile,
+        more3 : TicTacToeSeri,
+        more4 : TicTacToeDefeat
+    },
+    {
+        id: 6,
+        image : PingPong2DPlay,
+        title: 'Ping Pong 2D',
+        category: 'game',
+        link : 'https://github.com/tiaraarista/Ping-Pong2D',
+        more1 : PingPong2DHome,
+        more2 : PingPong2DPlay,
+        more3 : PingPong2DGameOver,
+        more4 : PingPong2DHowToPlay
+    },
+    {
+        id: 7,
+        image : ReactPortfolioHome,
+        title: 'React Portfolio',
+        category: 'Web',
+        link : 'https://github.com/tiaraarista/React-Portfolio',
+        more1 : ReactPortfolioHome,
+        more2 : ReactPortfolioAbout,
+        more3 : ReactPortfolioSkill,
+        more4 : ReactPortfolioPortfolio,
+        more5 : ReactPortfolioContact
+    },
 ];
 
 export const projectsNav = [
